@@ -38,9 +38,10 @@ This is initial draft , all these notes will be moved/copied to psd1/psm1 files 
 
 Structure anticipated:-
 
-Public - for public functions
-Private - for private functions
-tests - for tests (if any)
+functions folder- for all functions
+test folder - This will contain Pester tests 
+psd1 - modulel metadata
+psm1 - module file
 gitignore - for encrypted password path
 
 
