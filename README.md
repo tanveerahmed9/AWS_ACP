@@ -3,12 +3,12 @@ AWS code for ACP.
 This Module will be used for AWS vm builder automation (Hybrid).
 Functions Identified:-
 
-1. Connect to AWS instance
-2. fetch config details (P)
-3. Pre-Build Validation
-3. Create EC2 instance (M from Core)
+1. Connect to AWS instance (ConnectToAWS)
+2. fetch config details (P) (fetchConfigDetails)
+3. Pre-Build Validation (PreBuildValidation)
+3. Create EC2 instance (M from Core) (CreateEC2Instance)
 4. Fetch AMI image (P)
-5. Configure Instance Details
+5. Configure Instance Details 
 5.a ) Configure Subnet
 5. b) Assign IP 
 c) Assign Storage
@@ -32,6 +32,15 @@ Other Notes:- This is a hybrid cloud automation for a particular datacenter and 
 public or any other datacenter automation without substantial changes.
 
 
+PowerShell version : - 5.1		
+
+This is initial draft , all these notes will be moved/copied to psd1/psm1 files of the module.
+
+Structure anticipated:-
+
+Public - for public functions
+Private - for private functions
+tests - for tests (if any)
+gitignore - for encrypted password path
 
 
-									    
