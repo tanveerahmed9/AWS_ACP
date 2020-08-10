@@ -1,7 +1,6 @@
 # functions for AWSBuilder
 
-#region ConnectToAWS,fetchConfigDetails,PreBuildValidation,CreateEC2Instance,ConfigureInstance
-
+#region ConnectToAWS
 Function ConnectToAWS {
     [cmdletbinding()]
     Param()
@@ -23,3 +22,4 @@ Function ConnectToAWS {
 #endregion
 
 
+ConnectToAWS -Verbose
