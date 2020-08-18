@@ -10,5 +10,6 @@ Get-ChildItem .\functions\*.ps1 |
 ForEach-Object {
     Write-Verbose $_.fullname
     . $_.fullname
+    Write-Verbose "Completed loading function $_.fullname"
 }
 
